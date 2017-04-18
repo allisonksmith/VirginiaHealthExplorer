@@ -1,0 +1,148 @@
+/* Stylesheet by Allison K. Smith, 2017 */
+
+body{
+    background-color: #252525;
+}
+
+h1{
+    color: white;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+}
+.title{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 1.5em;
+    font-weight: bold;
+    
+}
+
+.counties {
+    stroke: black;
+    stroke-opacity: 0.8;
+    stroke-width: 0.5px;
+    stroke-linecap: round;
+}
+
+.map{
+    border: none;
+    margin: 10px 0 0 20px;
+}
+
+.chart{
+    background-color: none;
+    border: none;
+    float: right;
+    margin: 10px 0 0 20px; 
+}
+
+.numbers{
+    fill: white;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.chart {
+    
+    margin: 7px 20px 0 0;
+}
+
+.chartTitle {
+    fill: white;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 1.2em;
+}
+
+.dataDesc {
+    font-family: 'Open Sans Condensed', sans-serif;
+    fill: white;
+    min-width: 10px;
+    max-width: 20px;
+}
+
+.chartBackground {
+    fill: none;
+}
+
+.chartFrame {
+    fill: none;
+    stroke: none;
+    stroke-width: 3px;
+    shape-rendering: crispEdges;
+}
+
+.axis path,
+.axis line {
+    fill: none;
+    stroke: #999;
+    stroke-width: 1px;
+    shape-rendering: crispEdges;
+}
+
+.axis text {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 1em;
+    fill: #999;
+}
+
+.dropdown {
+    position: absolute;
+    top: 100px;
+    left: 40px;
+    z-index: 10;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+    padding: 2px;
+    border: 1px solid #999;
+    box-shadow: 2px 2px 4px #999;
+}
+
+option {
+    font-weight: normal;
+}
+
+.infolabel {
+    position: absolute;
+    height: 75px;
+    min-width: 100px;
+    color: #000;
+    background-color: rgba(255,255,255,0.85);
+    border: solid thin #fff;
+    padding: 5px 10px;
+    top: -75px;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.infolabel h2 {
+    margin: 0 20px 0 0;
+    padding: 0;
+    
+    line-height: 1em;
+}
+
+.labelname {
+    font-weight: 700;
+    color: #D6A400;
+}
+
+
+#datadesc {
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: lightgrey;
+    position: absolute;
+    top: 150px;
+    left: 40px;
+    max-width: 100px;
+    font-weight: 300;
+    font-size: 0.9em;
+}
+
+#credits {
+    position: fixed;
+    bottom:0;
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: lightgrey;
+    font-size: 0.5em;
+}
+
+
