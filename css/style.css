@@ -138,8 +138,9 @@ option {
 }
 
 #credits {
-    position: fixed;
-    bottom:0;
+    position: absolute;
+    top:5px;
+    right:5px;
     font-family: 'Open Sans Condensed', sans-serif;
     color: lightgrey;
     font-size: 0.5em;
